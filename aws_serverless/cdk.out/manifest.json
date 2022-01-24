@@ -1,0 +1,969 @@
+{
+  "version": "16.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "ApiLambdaCrudDynamoDBExample": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "ApiLambdaCrudDynamoDBExample.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/ApiLambdaCrudDynamoDBExample": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90",
+              "id": "4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90",
+              "packaging": "zip",
+              "sourceHash": "4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90",
+              "s3BucketParameter": "AssetParameters4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90S3Bucket3ADE7940",
+              "s3KeyParameter": "AssetParameters4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90S3VersionKey6BB9AF9E",
+              "artifactHashParameter": "AssetParameters4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90ArtifactHash61B3AD61"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:182:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack.js:435:33)",
+              "/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:59",
+              "withoutDeprecationWarnings (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:209:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:20)",
+              "new Asset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:43:44)",
+              "AssetCode.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:101:33)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:21:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/items": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": {
+              "Ref": "items07D08F4B"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "new Table (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:504:23)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:10:29)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/items/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "items07D08F4B",
+            "trace": [
+              "new Table (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:477:22)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:10:29)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionServiceRoleCFD54796",
+            "trace": [
+              "new Role (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:75:22)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:83:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:21:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionServiceRoleDefaultPolicy6B743AA8",
+            "trace": [
+              "new Policy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:214:34)",
+              "Function.addToPrincipal (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/grant.js:93:65)",
+              "Table.combinedGrant (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:404:35)",
+              "Table.grantReadWriteData (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:179:21)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:67:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getOneItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getOneItemFunctionE3257B22",
+            "trace": [
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:146:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:21:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90S3Bucket3ADE7940",
+            "trace": [
+              "new FileAssetParameters (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:169:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack.js:435:33)",
+              "/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:59",
+              "withoutDeprecationWarnings (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:209:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:20)",
+              "new Asset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:43:44)",
+              "AssetCode.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:101:33)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:21:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90S3VersionKey6BB9AF9E",
+            "trace": [
+              "new FileAssetParameters (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:169:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack.js:435:33)",
+              "/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:59",
+              "withoutDeprecationWarnings (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:209:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:20)",
+              "new Asset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:43:44)",
+              "AssetCode.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:101:33)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:21:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters4f1fd8a5cc58a4f728eda589dd64fd2082c8782ffaa1d8c183f96d51843b0f90ArtifactHash61B3AD61",
+            "trace": [
+              "new FileAssetParameters (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:169:22)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:86:25)",
+              "ApiLambdaCrudDynamoDBStack.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack.js:435:33)",
+              "/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:59",
+              "withoutDeprecationWarnings (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:209:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:91:20)",
+              "new Asset (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:43:44)",
+              "AssetCode.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/code.js:269:26)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:101:33)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:21:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionServiceRoleCC084440",
+            "trace": [
+              "new Role (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:75:22)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:83:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:30:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunctionServiceRoleDefaultPolicyF069C759",
+            "trace": [
+              "new Policy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:214:34)",
+              "Function.addToPrincipal (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/grant.js:93:65)",
+              "Table.combinedGrant (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:404:35)",
+              "Table.grantReadWriteData (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:179:21)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:66:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "getAllItemsFunction0B7A913E",
+            "trace": [
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:146:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:30:30)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionServiceRole1BBF2178",
+            "trace": [
+              "new Role (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:75:22)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:83:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:39:27)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunctionServiceRoleDefaultPolicy8FAF1611",
+            "trace": [
+              "new Policy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:214:34)",
+              "Function.addToPrincipal (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/grant.js:93:65)",
+              "Table.combinedGrant (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:404:35)",
+              "Table.grantReadWriteData (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:179:21)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:68:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/createItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "createItemFunction8D47E48A",
+            "trace": [
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:146:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:39:27)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionServiceRole40035396",
+            "trace": [
+              "new Role (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:75:22)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:83:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:48:27)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunctionServiceRoleDefaultPolicy6A793729",
+            "trace": [
+              "new Policy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:214:34)",
+              "Function.addToPrincipal (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/grant.js:93:65)",
+              "Table.combinedGrant (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:404:35)",
+              "Table.grantReadWriteData (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:179:21)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:69:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/updateItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "updateItemFunction59415205",
+            "trace": [
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:146:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:48:27)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionServiceRole5C201FCC",
+            "trace": [
+              "new Role (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:75:22)",
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:83:35)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:57:27)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunctionServiceRoleDefaultPolicyDCE46F14",
+            "trace": [
+              "new Policy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:214:34)",
+              "Function.addToPrincipal (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/grant.js:93:65)",
+              "Table.combinedGrant (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:404:35)",
+              "Table.grantReadWriteData (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:179:21)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:70:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/deleteItemFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "deleteItemFunction2918B1B0",
+            "trace": [
+              "new Function (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function.js:146:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:57:27)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApi28111E1C",
+            "trace": [
+              "new RestApi (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:424:26)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:71:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiCloudWatchRoleB5C7B431",
+            "trace": [
+              "new Role (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-iam/lib/role.js:75:22)",
+              "RestApi._configureCloudWatchRole (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:266:22)",
+              "new RestApi (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:441:18)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:71:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiAccount591BF3E1",
+            "trace": [
+              "RestApi._configureCloudWatchRole (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:270:34)",
+              "new RestApi (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:441:18)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:71:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiDeploymentFEC31BD04feb54db86e2f8eed94e1b28001143ce",
+            "trace": [
+              "new Deployment (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/deployment.js:50:25)",
+              "RestApi._configureDeployment (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:298:38)",
+              "new RestApi (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:443:14)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:71:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiDeploymentStageprodE77B897D",
+            "trace": [
+              "new Stage (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/stage.js:64:26)",
+              "RestApi._configureDeployment (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:306:36)",
+              "new RestApi (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:443:14)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:71:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiEndpoint8392E274",
+            "trace": [
+              "RestApi._configureDeployment (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:310:13)",
+              "new RestApi (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:443:14)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:71:21)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitems9015DBED",
+            "trace": [
+              "new Resource (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:239:26)",
+              "RootResource.addResource (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:30:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:74:32)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGETApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitems2A648972",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:48:22)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:76:15)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGETApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitemsF4364FB2",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:55:26)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:76:15)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsGET59B0F78A",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:76:15)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.POST..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132POSTitems7DA2B753",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:48:22)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:78:15)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.POST..items": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132POSTitemsAE25CBB6",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:55:26)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:78:15)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsPOSTDD3E83D0",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:78:15)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsOPTIONSB46B4D53",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "addCorsOptions (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:92:17)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:79:9)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidA29927C2",
+            "trace": [
+              "new Resource (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:239:26)",
+              "Resource.addResource (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:30:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:80:34)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGETApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitemsid6D54AF22",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:48:22)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:82:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.GET..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGETApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132GETitemsidCA08693A",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:55:26)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:82:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/GET/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidGET38A333A8",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:82:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.PATCH..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCHApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132PATCHitemsidEE9531C0",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:48:22)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:84:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.PATCH..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCHApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132PATCHitemsid513A5711",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:55:26)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:84:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/PATCH/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidPATCH0548CB6A",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:84:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/ApiPermission.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.DELETE..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETEApiPermissionApiLambdaCrudDynamoDBExampleitemsApiC8514132DELETEitemsid056EB521",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:48:22)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:86:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/ApiPermission.Test.ApiLambdaCrudDynamoDBExampleitemsApiC8514132.DELETE..items.{id}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETEApiPermissionTestApiLambdaCrudDynamoDBExampleitemsApiC8514132DELETEitemsid4C18D4E2",
+            "trace": [
+              "Function.addPermission (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:44:9)",
+              "LambdaIntegration.bind (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:55:26)",
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:43:40)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:86:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/DELETE/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidDELETE21550005",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:86:20)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/itemsApi/Default/items/{id}/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "itemsApiitemsidOPTIONS62BD91D0",
+            "trace": [
+              "new Method (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/method.js:59:26)",
+              "Resource.addMethod (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "addCorsOptions (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:92:17)",
+              "new ApiLambdaCrudDynamoDBStack (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:87:9)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:120:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stage.js:103:41)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:121:5)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ],
+        "/ApiLambdaCrudDynamoDBExample/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:30:35)",
+              "/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/node_modules/@aws-cdk/core/lib/stage.js:103:41)",
+              "Object.<anonymous> (/Users/sandeepkumaryaramchitti/Desktop/medium-blog-posts/assignment6/aws_serverless/index.js:121:5)",
+              "Module._compile (internal/modules/cjs/loader.js:1138:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)",
+              "Module.load (internal/modules/cjs/loader.js:986:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:879:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)",
+              "internal/main/run_main_module.js:17:47"
+            ]
+          }
+        ]
+      },
+      "displayName": "ApiLambdaCrudDynamoDBExample"
+    }
+  }
+}
